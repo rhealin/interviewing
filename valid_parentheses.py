@@ -9,6 +9,7 @@ def matched(str):
             return False
     return count == 0
 
+## works if checking for multiple types of parentheses
 def parentheses_match(input):
   stack = []
   push_chars, pop_chars = "<({[", ">)}]"
