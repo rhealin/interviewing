@@ -1,4 +1,4 @@
-def dfs(s):
+def dfs_1(s):
 	stack = [s]
 	visited = []
 	while stack:
@@ -9,7 +9,9 @@ def dfs(s):
 				stack.append(child)
 	return visited
 
-def dfs(Adj):
+###
+
+def dfs_2(Adj):
 	parent = {}
 	for s in Adj:
 		if s not in parent:

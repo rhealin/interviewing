@@ -20,5 +20,5 @@ def bfs(Adj, start, end):
         i += 1
     return parent
 
-# Adj = {1: [2], 3: [4], 2: [3, 5], 4: [], 5: []}
-# print(bfs(Adj, 1, 5))
+Adj = {1: [2], 3: [4], 2: [3, 5], 4: [], 5: []}
+print(bfs(Adj, 1, 5))
